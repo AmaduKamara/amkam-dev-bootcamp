@@ -21,6 +21,10 @@
   color: #d3d3d3;
 }
 
+.secondary-light-bg {
+  background-color: #d3d3d3;
+}
+
 body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
@@ -38,12 +42,16 @@ ul li {
 }
 
 /* Header Styles */
+
+.logo img{
+  width: 200px;
+}
+
 .top-header {
   width: 100%;
   height: 30px;
   line-height: 30px;
   background-color: #272a32;
-  /* background-color: #3e3e3e; */
   color: #fff;
 }
 
@@ -57,8 +65,8 @@ fa-twitter {
 }
 
 nav {
-  height: 60px;
-  line-height: 60px;
+  height: 66px;
+  line-height: 66px;
 }
 
 .nav-links {
@@ -77,7 +85,7 @@ nav {
   height: 40px;
   border: 3px solid #ec5242;
   padding: 1px 8px;
-  margin-top: 10px;
+  margin-top: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +99,13 @@ nav {
 /* Hero Section Styles */
 .hero-section {
   width: 100%;
+  height: 100vh;
   height: calc(100vh - 90px);
+  padding: 70px 0;
+  background-image: url('../images/Hero\ Background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-intro p {
@@ -148,7 +162,8 @@ nav {
 .program {
   width: 20%;
   padding: 30px 20px;
-  background-color: #8181815b;
+  background-color: #9999993f;
+  /* background-color: #8181815b; */
 }
 
 .program h3 {
@@ -164,4 +179,96 @@ nav {
   display: inline-block;
   font-size: 24px;
   margin-top: 20px;
+}
+
+/* Featured Tutors */
+.featured-tutors {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #fff;
+}
+
+.featured-tutors h2 {
+  font-weight: 600;
+}
+
+.speaker-line {
+  width: 30px;
+  height: 3px;
+}
+
+.featured-left {
+  width: 50%;
+  margin: 20px 30px;
+}
+
+.featured-right {
+  width: 50%;
+  margin: 20px 30px;
+}
+
+.left-speaker .image {
+  width: 50%;
+  position: relative;
+}
+
+.image .image-left {
+  width: 30%;
+  position: absolute;
+}
+
+.image .image-top {
+  position: absolute;
+  top: 20px;
+  left: 21px;
+  width: 100%;
+}
+
+.speaker-info {
+  width: 50%;
+  padding: 30px 0;
+  margin-left: 60px;
+}
+
+.speaker-info h4 {
+  font-weight: bold;
+}
+
+/* Partners Section */
+.partners {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #272a32;
+}
+
+.partner-logo-div {
+  width: 20%;
+  margin: 10px 20px;
+}
+
+.partners-logos {
+  margin-top: 40px;
+}
+
+.partner-logo-div img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Section */
+/* Featured Tutors */
+footer {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #fff;
+}
+
+.footer-info {
+  padding: 40px;
+}
+
+.footer-info h4 {
+  font-weight: bold;
 }
