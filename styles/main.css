@@ -17,6 +17,10 @@
   color: #272a32;
 }
 
+.bg-seconday-dark {
+  background-color: #272a32;
+}
+
 .secondary-light {
   color: #d3d3d3;
 }
@@ -43,7 +47,7 @@ ul li {
 
 /* Header Styles */
 
-.logo img{
+.logo img {
   width: 200px;
 }
 
@@ -258,7 +262,6 @@ nav {
 }
 
 /* Footer Section */
-/* Featured Tutors */
 footer {
   width: 100%;
   padding: 70px 0;
@@ -271,4 +274,98 @@ footer {
 
 .footer-info h4 {
   font-weight: bold;
+}
+
+/* ABOUT PAGE */
+/* Hero Section */
+.about-hero {
+  width: 100%;
+  height: 100vh;
+  height: calc(100vh - 90px);
+  padding-top: 115px;
+  background-image: url('../images/about/About\ Hero.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-hero h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #ec5242;
+}
+
+.about-hero-texts {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+}
+
+.amkam-bootcamp-logo {
+  width: 100%;
+  padding-top: 70px;
+  border-top: 2px solid #e9e9e9;
+  padding-bottom: 120px;
+}
+
+.amkam-bootcamp-logo h2 {
+  font-weight: bold;
+}
+
+.bootcapm-logo-div {
+  padding: 50px;
+  border: 2px solid #e9e9e9;
+}
+
+.logo-description,
+.event-description {
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* Past Events */
+.past-events {
+  width: 100%;
+  padding-top: 70px;
+  border-top: 2px solid #d3d3d3;
+  padding-bottom: 120px;
+}
+
+.past-events h2 {
+  font-weight: bold;
+}
+
+.events .event {
+  width: 50%;
+  height: 427px;
+  margin: 20px 25px;
+  text-align: center;
+}
+
+.event-year {
+  font-size: 45px;
+}
+
+.event-left {
+  background-image: linear-gradient(
+      rgba(226, 34, 34, 0.829),
+      rgba(226, 34, 34, 0.829)
+    ),
+    url('../images/about/trainers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-right {
+  background-image: linear-gradient(
+      rgba(226, 34, 34, 0.829),
+      rgba(226, 34, 34, 0.829)
+    ),
+    url('../images/about/UI-Design.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
