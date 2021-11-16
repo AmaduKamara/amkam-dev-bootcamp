@@ -1,0 +1,167 @@
+/* Google font import - Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Colors */
+.primary-color {
+  color: #ec5242;
+}
+
+.seconday-dark {
+  color: #272a32;
+}
+
+.secondary-light {
+  color: #d3d3d3;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  color: #565656;
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* Header Styles */
+.top-header {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #272a32;
+  /* background-color: #3e3e3e; */
+  color: #fff;
+}
+
+.fa-facebook-f,
+fa-twitter {
+  color: #fff;
+}
+
+.top-header-links {
+  font-size: 14px;
+}
+
+nav {
+  height: 60px;
+  line-height: 60px;
+}
+
+.nav-links {
+  color: #272a32;
+}
+
+.nav-links:hover {
+  color: #ec5242;
+}
+
+.nav-links.active {
+  color: #ec5242;
+}
+
+.promo {
+  height: 40px;
+  border: 3px solid #ec5242;
+  padding: 1px 8px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ec5242;
+}
+
+.promo:hover {
+  color: #f16151;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  width: 100%;
+  height: calc(100vh - 90px);
+}
+
+.hero-intro p {
+  font-size: 22px;
+  font-weight: 100;
+  color: #ec5242;
+}
+
+.hero-intro h1 {
+  font-size: 65px;
+  font-weight: 600;
+  color: #ec5242;
+}
+
+.hero-description {
+  width: 50%;
+  padding: 15px 20px;
+  border: 4px solid #fff;
+}
+
+.program-schedule {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.program-schedule h4 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.program-schedule p {
+  font-size: 22px;
+}
+
+/* Main Programs */
+.main-programs {
+  width: 100%;
+  height: 700px;
+  padding: 70px 0;
+  background-image: url('../images/Background\ Shapes.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #272a32;
+}
+
+.line {
+  width: 70px;
+  height: 2px;
+  margin: auto;
+  background-color: #ec5242;
+}
+
+.program {
+  width: 20%;
+  padding: 30px 20px;
+  background-color: #8181815b;
+}
+
+.program h3 {
+  font-size: 20px;
+}
+
+.program h3 {
+  font-weight: bold;
+  color: #fe4a3b;
+}
+
+.more-programs {
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 20px;
+}
