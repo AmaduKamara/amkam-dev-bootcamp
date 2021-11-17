@@ -684,13 +684,16 @@ form button:focus {
     display: none;
   }
 
+  .logo-description .mobile-description {
+    display: block;
+    font-size: 18px;
+  }
+
   .second-para, .third-para{
     display: none;
   }
 
-  .logo-description .mobile-description {
-    display: block;
-  }
+  
 
   .bootcapm-logo-div img{
     width: 100%;
