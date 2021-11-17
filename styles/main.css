@@ -104,6 +104,10 @@ nav {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 /* Hero Section Styles */
 .hero-section {
   width: 100%;
@@ -253,8 +257,8 @@ nav {
 
 .image .image-top {
   position: absolute;
-  top: 20px;
-  left: 21px;
+  top: 15px;
+  left: 14px;
   width: 100%;
 }
 
@@ -506,6 +510,61 @@ form button:focus {
     background-color: #272a32;
   }
 
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #ec5242;
+    padding: 40px 30px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    backdrop-filter: blur(2px);
+    z-index: 9999;
+  }
+
+  .mobile-menu.active {
+    background-color: #ec5242;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .mobile-logo {
+    width: 50%;
+  }
+
+  .close-icon {
+    width: 40px;
+    color: #fff;
+  }
+
+  .nav-links {
+    color: #eeeeee;
+    font-size: 25px;
+  }
+
+  .mobile-enroll-button {
+    background-color: #fff;
+    color: #ec5242;
+    padding: 15px 50px;
+    font-size: 20px;
+  }
+
+  .mobile-enroll-button:hover {
+    color: #fafafa;
+    border: 2px solid #ec5242;
+    background-color: transparent;
+    color: #ec5242;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+  }
+
   /* Hero Section Styles */
   .hero-section {
     padding: 0 20px;
@@ -590,10 +649,18 @@ form button:focus {
     width: 30%;
   }
 
+  .image .image-top {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 100%;
+  }
+
   .speaker-info {
-    margin-left: 40px;
+    margin-left: 20px;
     padding-right: 20px;
     width: 100%;
+    padding: 5px 0;
   }
 
   /* Partners Section Styles */
@@ -607,6 +674,10 @@ form button:focus {
   }
 
   /* Footer Section Styles */
+
+  footer {
+    padding: 0 10px;
+  }
 
   .footer-info h4 {
     font-size: 18px;
@@ -689,16 +760,14 @@ form button:focus {
     font-size: 18px;
   }
 
-  .second-para, .third-para{
+  .second-para,
+  .third-para {
     display: none;
   }
 
-  
-
-  .bootcapm-logo-div img{
+  .bootcapm-logo-div img {
     width: 100%;
   }
-
 
   /* Events Styles */
   .events {

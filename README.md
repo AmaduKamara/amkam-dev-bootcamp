@@ -2,6 +2,8 @@
 
 The Capstone project is a project that require students to build a project from start to finish solo.
 
+#### Mobile Screenshot
+
 ## Built With
 
 - HTML and CSS
