@@ -22,13 +22,13 @@ This is an exercise requiring a student to develop a website as a capstone proje
 
 ## Author:
 
--Github: @<https://github.com/AmaduKamara>
+- Github: @<https://github.com/AmaduKamara>
 
--LinkedIn: @<https://www.linkedin.com/in/amadu-kamara-3b60a25b/>
+- LinkedIn: @<https://www.linkedin.com/in/amadu-kamara-3b60a25b/>
 
--Twitter: @<https://twitter.com/DevAmkam/>
+- Twitter: @<https://twitter.com/DevAmkam/>
 
--Facebook: @<https://www.facebook.com/amadus.kamara.7/>
+- Facebook: @<https://www.facebook.com/amadus.kamara.7/>
 
 ## 🤝 Contributing
 
