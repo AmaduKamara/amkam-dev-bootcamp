@@ -47,6 +47,12 @@ ul li {
 
 /* Header Styles */
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
 .logo img {
   width: 200px;
 }
@@ -75,6 +81,7 @@ nav {
 
 .nav-links {
   color: #272a32;
+  font-size: 18px;
 }
 
 .nav-links:hover {
@@ -83,6 +90,10 @@ nav {
 
 .nav-links.active {
   color: #ec5242;
+}
+
+.nav-links:focus{
+  color: #fff;
 }
 
 .promo {
@@ -544,7 +555,7 @@ form button:focus {
     color: #fff;
   }
 
-  .nav-links {
+  .menu-list ul li a {
     color: #eeeeee;
     font-size: 25px;
   }
@@ -568,6 +579,10 @@ form button:focus {
   /* Hero Section Styles */
   .hero-section {
     padding: 0 20px;
+  }
+
+  .hero-intro {
+    padding-top: 90px;
   }
 
   .hero-intro h1 {
@@ -669,6 +684,7 @@ form button:focus {
     width: 100%;
     margin: 0 6px;
   }
+
   .partner-logo-div img {
     width: 100%;
   }
@@ -792,6 +808,16 @@ form button:focus {
   }
 
   .about-footer div img {
+    width: 100%;
+  }
+
+  /* CONTACT PAGE */
+  .contact-footer{
+    width: 100%;;
+    padding: 40px 20px;;
+  }
+
+  .footer-devbootcamp-logo{
     width: 100%;
   }
 }
