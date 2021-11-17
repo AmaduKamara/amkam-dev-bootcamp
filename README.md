@@ -1,8 +1,14 @@
 # Amkam DevBootcamp Capstone Project
 
-The Capstone project is a project that require students to build a project from start to finish solo.
+Thi Capstone project is a project required students to build a project from scratch to finish. It's a solo project for all students as it marks the end of a module.
+
+#### Desktop Screenshot
+
+<img src="./images/screenshots/Desktop.png" alt="Amkam DevBootcamp desktop screenshot" />
 
 #### Mobile Screenshot
+
+<img src="./images/screenshots/Mobile.png" alt="Amkam DevBootcamp mobile screenshot" />
 
 ## Built With
 
@@ -18,7 +24,7 @@ The Capstone project is a project that require students to build a project from 
 
 ## Getting Started
 
-This is an exercise requiring a student to develop a website as a capstone project by individual student.
+This is an exercise requiring a student to develop a website as a capstone project individually.
 
 ## Author:
 

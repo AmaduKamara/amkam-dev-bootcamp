@@ -92,7 +92,7 @@ nav {
   color: #ec5242;
 }
 
-.nav-links:focus{
+.nav-links:focus {
   color: #fff;
 }
 
@@ -124,7 +124,6 @@ nav {
   width: 100%;
   height: 100vh;
   height: calc(100vh - 90px);
-  padding: 100px 0;
   background-image: url('../images/Hero\ Background.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -812,12 +811,12 @@ form button:focus {
   }
 
   /* CONTACT PAGE */
-  .contact-footer{
-    width: 100%;;
-    padding: 40px 20px;;
+  .contact-footer {
+    width: 100%;
+    padding: 40px 20px;
   }
 
-  .footer-devbootcamp-logo{
+  .footer-devbootcamp-logo {
     width: 100%;
   }
 }
