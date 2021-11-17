@@ -334,6 +334,10 @@ footer {
   background-position: center;
 }
 
+.about-hero .hero-intro-text {
+  display: none;
+}
+
 .about-hero h1 {
   font-size: 55px;
   font-weight: bold;
@@ -341,10 +345,10 @@ footer {
 }
 
 .about-hero-texts {
-  width: 65%;
+  width: 60%;
   margin: auto;
   margin-top: 50px;
-  padding: 50px;
+  padding: 30px;
   border: 1px solid #d3d3d3;
   background-color: #fff;
 }
@@ -361,7 +365,7 @@ footer {
 }
 
 .bootcapm-logo-div {
-  padding: 50px;
+  padding: 40px;
   border: 2px solid #e9e9e9;
 }
 
@@ -370,6 +374,14 @@ footer {
   width: 50%;
   margin: auto;
   margin-top: 30px;
+}
+
+.logo-description .mobile-description {
+  display: none;
+}
+
+.contact-text {
+  margin-top: 50px;
 }
 
 /* Past Events */
@@ -468,7 +480,8 @@ form button:focus {
 
 /* MOBILE RESPONSIVE DESIGNS */
 @media (max-width: 768px) {
-  /* HOME PAGE Styles */
+  /* HOME PAGE MOBILE RESPONSIVE STYLES */
+  /* Hide Nav Header and Create Hamburger menu bar styles */
   .top-header,
   nav {
     display: none;
@@ -611,6 +624,102 @@ form button:focus {
   }
 
   footer .footer-logo-image img {
+    width: 100%;
+  }
+
+  /* ABOUT PAGE MOBILE RESPONSIVE STYLES */
+  /* Hero Styles */
+  .about-hero {
+    height: calc(100vh - 90px);
+    background-image: url('../images/about/about-hero.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 100px 20px;
+  }
+
+  .about-line {
+    display: none;
+  }
+
+  .about-hero .hero-intro-text {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ec5242;
+  }
+
+  .about-hero h1 {
+    font-size: 30px;
+  }
+
+  .about-hero-texts {
+    width: 96%;
+    padding: 20px 10px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+
+  .second-para,
+  third-para {
+    display: none;
+  }
+
+  .contact-text {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .contact-email {
+    text-decoration: underline;
+  }
+
+  .logo-description {
+    width: 80%;
+  }
+
+  .desktop-description {
+    display: none;
+  }
+
+  .second-para, .third-para{
+    display: none;
+  }
+
+  .logo-description .mobile-description {
+    display: block;
+  }
+
+  .bootcapm-logo-div img{
+    width: 100%;
+  }
+
+
+  /* Events Styles */
+  .events {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .events .event,
+  .events .event {
+    width: 90%;
+  }
+
+  /* Footer styles */
+  .about-footer {
+    width: 90%;
+    display: flex;
+  }
+
+  .about-footer div {
+    width: 50%;
+  }
+
+  .about-footer div img {
     width: 100%;
   }
 }
