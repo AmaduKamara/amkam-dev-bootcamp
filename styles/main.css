@@ -100,12 +100,16 @@ nav {
   color: #f16151;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /* Hero Section Styles */
 .hero-section {
   width: 100%;
   height: 100vh;
   height: calc(100vh - 90px);
-  padding: 70px 0;
+  padding: 100px 0;
   background-image: url('../images/Hero\ Background.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,26 +117,26 @@ nav {
 }
 
 .hero-intro p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 100;
   color: #ec5242;
 }
 
 .hero-intro h1 {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 600;
   color: #ec5242;
 }
 
 .hero-description {
   width: 50%;
-  padding: 15px 20px;
+  padding: 10px 20px;
   border: 4px solid #fff;
 }
 
 .program-schedule {
   width: 50%;
-  margin-top: 30px;
+  margin-top: 12px;
 }
 
 .program-schedule h4 {
@@ -142,7 +146,7 @@ nav {
 
 .program-schedule p {
   font-size: 22px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .enroll-button {
@@ -169,8 +173,7 @@ nav {
 /* Main Programs */
 .main-programs {
   width: 100%;
-  height: 700px;
-  padding: 70px 0;
+  padding: 100px 0;
   background-image: url('../images/Background\ Shapes.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -338,9 +341,9 @@ footer {
 }
 
 .about-hero-texts {
-  width: 50%;
+  width: 65%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 50px;
   border: 1px solid #d3d3d3;
   background-color: #fff;
@@ -364,7 +367,7 @@ footer {
 
 .logo-description,
 .event-description {
-  width: 40%;
+  width: 50%;
   margin: auto;
   margin-top: 30px;
 }
@@ -461,4 +464,153 @@ form button:hover {
 
 form button:focus {
   background-color: #ec5242;
+}
+
+/* MOBILE RESPONSIVE DESIGNS */
+@media (max-width: 768px) {
+  /* HOME PAGE Styles */
+  .top-header,
+  nav {
+    display: none;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .mobile-nav {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+
+  .mobile-nav div {
+    width: 35px;
+    height: 4px;
+    margin-top: 6px;
+    background-color: #272a32;
+  }
+
+  /* Hero Section Styles */
+  .hero-section {
+    padding: 0 20px;
+  }
+
+  .hero-intro h1 {
+    font-size: 35px;
+  }
+
+  .hero-description {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+
+  .program-schedule {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .program-schedule h4 {
+    font-size: 25px;
+  }
+
+  /* Main Programs Styles */
+  .main-programs {
+    width: 100%;
+    padding: 50px 20px;
+  }
+
+  .programs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .program i {
+    width: 10%;
+    margin-right: 20px;
+  }
+
+  .program h3 {
+    width: 30%;
+    font-size: 20px;
+    margin-left: 20px;
+    align-items: left;
+  }
+
+  .program p {
+    width: 60%;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  /* Featured Tutors */
+  .featured-tutors {
+    width: 100%;
+    margin: 20px 0;
+    padding: 50px 10px;
+  }
+
+  .speaker-row {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .featured-left,
+  .featured-right {
+    width: 94%;
+  }
+
+  .featured-left .image,
+  .featured-right .image {
+    width: 30%;
+  }
+
+  .speaker-info {
+    margin-left: 40px;
+    padding-right: 20px;
+    width: 100%;
+  }
+
+  /* Partners Section Styles */
+
+  .partner-logo-div {
+    width: 100%;
+    margin: 0 6px;
+  }
+  .partner-logo-div img {
+    width: 100%;
+  }
+
+  /* Footer Section Styles */
+
+  .footer-info h4 {
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 40px;
+    margin-left: 14px;
+  }
+
+  .footer-info {
+    padding: 0;
+  }
+
+  .footer-info p {
+    display: none;
+  }
+
+  footer .footer-logo-image img {
+    width: 100%;
+  }
 }
