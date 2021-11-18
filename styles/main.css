@@ -5,10 +5,9 @@
   font-family: 'COCOGOOSE';
   font-style: normal;
   font-weight: 400;
-  src:
-    local('COCOGOOSE'),
+  src: local('COCOGOOSE'),
     url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff')
-    format('woff');
+      format('woff');
 }
 
 /* Global reset */
@@ -75,8 +74,7 @@ header {
   color: #fff;
 }
 
-.fa-facebook-f,
-fa-twitter {
+.header-social-links {
   color: #fff;
 }
 
@@ -141,7 +139,6 @@ nav {
 
 .hero-intro p {
   font-size: 20px;
-  font-weight: 100;
   color: #f52711;
   font-weight: bold;
 }
@@ -182,7 +179,6 @@ nav {
 }
 
 .enroll-button:hover {
-  color: #fafafa;
   border: 2px solid #ec5242;
   background-color: transparent;
   color: #ec5242;
@@ -228,9 +224,6 @@ nav {
 
 .program h3 {
   font-size: 20px;
-}
-
-.program h3 {
   font-weight: bold;
   color: #fe4a3b;
 }
@@ -445,8 +438,7 @@ footer {
 }
 
 .event-left {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
@@ -456,8 +448,7 @@ footer {
 }
 
 .event-right {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
