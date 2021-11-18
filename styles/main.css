@@ -1,10 +1,5 @@
 /* Google font import - Lato */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
-
-@font-face {
-  font-family: Cocogoose;
-  src: url('../fonts/COCOGOOSE.ttf.woff');
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@500;700&display=swap');
 
 /* Global reset */
 * {
@@ -141,9 +136,9 @@ nav {
 
 .hero-intro h1 {
   font-size: 65px;
-  font-weight: bold;
+  font-weight: 700;
   color: #ec5242;
-  font-family: Cocogoose;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hero-description {
@@ -361,9 +356,9 @@ footer {
 
 .about-hero h1 {
   font-size: 55px;
-  font-weight: bold;
+  font-weight: 700;
   color: #ec5242;
-  font-family: Cocogoose;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-hero-texts {
@@ -434,8 +429,7 @@ footer {
 }
 
 .event-left {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
@@ -445,8 +439,7 @@ footer {
 }
 
 .event-right {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
