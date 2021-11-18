@@ -429,14 +429,14 @@ footer {
 }
 
 .event-left {
-  background-image: linear-gradient(rgba(226, 34, 34, 0.829),rgba(226, 34, 34, 0.829)), url('../images/about/trainers.jpg');
+  background-image: linear-gradient(rgba(226,34,34,0.829),rgba(226,34,34,0.829)), url('../images/about/trainers.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .event-right {
-  background-image: linear-gradient(rgba(226, 34, 34, 0.829),rgba(226, 34, 34, 0.829)), url('../images/about/UI-Design.jpg');
+  background-image: linear-gradient(rgba(226,34,34,0.829),rgba(226,34,34,0.829)), url('../images/about/UI-Design.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
