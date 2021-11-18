@@ -5,7 +5,10 @@
   font-family: 'COCOGOOSE';
   font-style: normal;
   font-weight: 400;
-  src: local('COCOGOOSE'), url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff') format('woff');
+  src:
+    local('COCOGOOSE'),
+    url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff')
+    format('woff');
 }
 
 /* Global reset */
@@ -213,13 +216,6 @@ nav {
   background-color: #8181815b;
 }
 
-.program:hover {
-  cursor: pointer;
-  transition: 0.6s ease-in-out;
-  transform: scale(1.02);
-  border: 1px solid #fff;
-}
-
 .program h3 {
   font-size: 20px;
   font-weight: bold;
@@ -230,6 +226,13 @@ nav {
   display: inline-block;
   font-size: 24px;
   margin-top: 20px;
+}
+
+.program:hover {
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+  transform: scale(1.02);
+  border: 1px solid #fff;
 }
 
 /* Featured Tutors */
@@ -436,13 +439,23 @@ footer {
 }
 
 .event-left {
-  background-image: linear-gradient(rgba(226, 34, 34, 0.829), rgba(226, 34, 34, 0.829)), url('../images/about/trainers.jpg');
+  background-image:
+    linear-gradient(
+      rgba(226, 34, 34, 0.829),
+      rgba(226, 34, 34, 0.829)
+    ),
+    url('../images/about/trainers.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .event-right {
-  background-image: linear-gradient(rgba(226, 34, 34, 0.829), rgba(226, 34, 34, 0.829)), url('../images/about/UI-Design.jpg');
+  background-image:
+    linear-gradient(
+      rgba(226, 34, 34, 0.829),
+      rgba(226, 34, 34, 0.829)
+    ),
+    url('../images/about/UI-Design.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
