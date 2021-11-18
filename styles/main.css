@@ -5,9 +5,7 @@
   font-family: 'COCOGOOSE';
   font-style: normal;
   font-weight: 400;
-  src: local('COCOGOOSE'),
-    url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff')
-      format('woff');
+  src: local('COCOGOOSE'), url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff'), format('woff');
 }
 
 /* Global reset */
@@ -438,21 +436,13 @@ footer {
 }
 
 .event-left {
-  background-image: linear-gradient(
-      rgba(226, 34, 34, 0.829),
-      rgba(226, 34, 34, 0.829)
-    ),
-    url('../images/about/trainers.jpg');
+  background-image: linear-gradient(rgba(226, 34, 34, 0.829),rgba(226, 34, 34, 0.829) ), url('../images/about/trainers.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .event-right {
-  background-image: linear-gradient(
-      rgba(226, 34, 34, 0.829),
-      rgba(226, 34, 34, 0.829)
-    ),
-    url('../images/about/UI-Design.jpg');
+  background-image: linear-gradient(rgba(226, 34, 34, 0.829),rgba(226, 34, 34, 0.829)), url('../images/about/UI-Design.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -496,7 +486,6 @@ form button {
 }
 
 form button:hover {
-  color: #fafafa;
   border: 2px solid #ec5242;
   background-color: transparent;
   color: #ec5242;
@@ -542,7 +531,6 @@ form button:focus {
     position: absolute;
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     height: 100vh;
     margin: 0;
@@ -585,7 +573,6 @@ form button:focus {
   }
 
   .mobile-enroll-button:hover {
-    color: #fafafa;
     border: 2px solid #ec5242;
     background-color: transparent;
     color: #ec5242;
@@ -669,9 +656,9 @@ form button:focus {
 
   .speaker-info {
     margin-left: 20px;
-    padding-right: 20px;
     width: 100%;
     padding: 5px 0;
+    padding-right: 20px;
   }
 
   /* Partners Section Styles */
@@ -704,6 +691,10 @@ form button:focus {
 
   .footer-info p {
     display: none;
+  }
+
+  .bootcapm-logo-div img {
+    width: 100%;
   }
 
   footer .footer-logo-image img {
@@ -746,7 +737,7 @@ form button:focus {
   }
 
   .second-para,
-  third-para {
+  .third-para {
     display: none;
   }
 
@@ -774,10 +765,6 @@ form button:focus {
     display: none;
   }
 
-  .bootcapm-logo-div img {
-    width: 100%;
-  }
-
   /* Events Styles */
   .events {
     width: 100%;
@@ -785,7 +772,6 @@ form button:focus {
     flex-direction: column;
   }
 
-  .events .event,
   .events .event {
     width: 90%;
   }
