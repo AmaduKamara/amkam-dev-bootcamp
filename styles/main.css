@@ -1,5 +1,11 @@
 /* Google font import - Lato */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@font-face {
+    font-family: 'COCOGOOSE';
+    font-style: normal;
+    font-weight: 400;
+    src: local('COCOGOOSE'), url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff') format('woff');
+}
 
 /* Global reset */
 * {
@@ -140,6 +146,7 @@ nav {
   font-size: 65px;
   font-weight: bold;
   color: #ec5242;
+  font-family: 'COCOGOOSE';
 }
 
 .hero-description {
@@ -212,6 +219,7 @@ nav {
   cursor: pointer;
   transition: 0.6s ease-in-out;
   transform: scale(1.02);
+  border: 1px solid #fff;
 }
 
 .program h3 {
