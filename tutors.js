@@ -21,12 +21,12 @@ const tutors = [
     position: 'Full Stack Web Developer & Instructor at Traversy Media',
     description:
       'Brad Traversy has been programming for around 12 years and teaching for almost 5 years. He is the owner of Traversy Media which is a successful web development YouTube channel and specializes in Fullstack web development.',
-    image: './images/tutors/selected/Colt Steele.jpg',
+    image: './images/tutors/selected/Brad Traversy.jpeg',
   },
   {
     id: '4',
     name: 'Jonas Schmedtmann',
-    position: 'Web Developer, Designer, and Teacher',
+    position: 'Web Developer, Designer, and Teacher.',
     description:
       "Hi, I'm Jonas! I have been identified as one of Udemy's Top Instructors and all my premium courses have earned the best-selling status for outstanding performance and student satisfaction.",
     image: './images/tutors/selected/Jonas Schmedmann.jpg',
@@ -44,26 +44,50 @@ const tutors = [
     name: 'Bucky Roberts',
     position: 'Director of Engineering',
     description:
-      'Dedicated, passionate, and accomplished Full Stack Developer with 10+ years of progressive experience. I’ve acquired a wide depth of knowledge and expertise in using my technical skills in programming, computer science, software development, and mobile app development to developing solutions to help organizations increase productivity, and accelerate business performance.',
+      'I’ve acquired a wide depth of knowledge and expertise in using my technical skills in programming, computer science, software development, and mobile app development to developing solutions to help organizations increase productivity, and accelerate business performance.',
     image: './images/tutors/selected/Bucky Roberts.jpg',
   },
 ];
 
-const coltSteele = tutors.find((tutor) => tutor.id === '1');
-const maximillian = tutors.find((tutor) => tutor.id === '2');
-const bradTraversy = tutors.find((tutor) => tutor.id === '3');
+const colt = tutors.find((tutor) => tutor.id === '1');
+const maxi = tutors.find((tutor) => tutor.id === '2');
+const brad = tutors.find((tutor) => tutor.id === '3');
 const jonas = tutors.find((tutor) => tutor.id === '4');
-const andrewMead = tutors.find((tutor) => tutor.id === '5');
-const buckyRoberts = tutors.find((tutor) => tutor.id === '6');
+const andrew = tutors.find((tutor) => tutor.id === '5');
+const bucky = tutors.find((tutor) => tutor.id === '6');
 
-const { coltName, coltPosition, coltDescription, coltImage } = coltSteele;
+// Colt Steel
+document.getElementById('speaker-colt').textContent = colt.name;
+document.getElementById('colt-position').textContent = colt.position;
+document.getElementById('colt-description').textContent = colt.description;
+document.getElementById('colt-image').src = colt.image;
 
-const { maxName, maxPosition, maxDescription, maxImage } = maximillian;
+// Maximillian
+document.getElementById('speaker-max').textContent = maxi.name;
+document.getElementById('max-position').textContent = maxi.position;
+document.getElementById('max-description').textContent = maxi.description;
+document.getElementById('max-image').src = maxi.image;
 
-const { bradName, bradPosition, bradDescription, bradiImage } = bradTraversy;
+// Brad
+document.getElementById('speaker-brad').textContent = brad.name;
+document.getElementById('brad-position').textContent = brad.position;
+document.getElementById('brad-description').textContent = brad.description;
+document.getElementById('brad-image').src = brad.image;
 
-const { jonasName, jonasPosition, jonasDescription, jonasImage } = jonas;
+// Jonas
+document.getElementById('speaker-jonas').textContent = jonas.name;
+document.getElementById('jonas-position').textContent = jonas.position;
+document.getElementById('jonas-description').textContent = jonas.description;
+document.getElementById('jonas-image').src = jonas.image;
 
-const { andrewName, andrewPosition, andrewDescription, andrewImage } = andrewMead;
+// Andrew
+document.getElementById('speaker-andrew').textContent = andrew.name;
+document.getElementById('andrew-position').textContent = andrew.position;
+document.getElementById('andrew-description').textContent = andrew.description;
+document.getElementById('andrew-image').src = andrew.image;
 
-const { buckyName, buckyPosition, buckyDescription, buckyImage } = buckyRoberts;
+// Bucky
+document.getElementById('speaker-bucky').textContent = bucky.name;
+document.getElementById('bucky-position').textContent = bucky.position;
+document.getElementById('bucky-description').textContent = bucky.description;
+document.getElementById('bucky-image').src = bucky.image;
