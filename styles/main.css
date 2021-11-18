@@ -2,13 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
 @font-face {
-  font-family: 'COCOGOOSE';
-  font-style: normal;
-  font-weight: 400;
-  src:
-    local('COCOGOOSE'),
-    url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff')
-    format('woff');
+  font-family: Cocogoose;
+  src: url('../fonts/COCOGOOSE.ttf.woff');
 }
 
 /* Global reset */
@@ -148,7 +143,7 @@ nav {
   font-size: 65px;
   font-weight: bold;
   color: #ec5242;
-  font-family: 'COCOGOOSE';
+  font-family: Cocogoose;
 }
 
 .hero-description {
@@ -368,7 +363,7 @@ footer {
   font-size: 55px;
   font-weight: bold;
   color: #ec5242;
-  font-family: 'COCOGOOSE';
+  font-family: Cocogoose;
 }
 
 .about-hero-texts {
