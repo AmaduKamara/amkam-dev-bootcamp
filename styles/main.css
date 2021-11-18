@@ -1,12 +1,14 @@
 /* Google font import - Lato */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
 @font-face {
   font-family: 'COCOGOOSE';
   font-style: normal;
   font-weight: 400;
-  src: local('COCOGOOSE'),
+  src:
+    local('COCOGOOSE'),
     url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff')
-      format('woff');
+    format('woff');
 }
 
 /* Global reset */
@@ -351,6 +353,7 @@ footer {
 }
 
 /* ABOUT PAGE */
+
 /* Hero Section */
 .about-hero {
   width: 100%;
@@ -442,7 +445,8 @@ footer {
 }
 
 .event-left {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
@@ -452,7 +456,8 @@ footer {
 }
 
 .event-right {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
@@ -515,6 +520,7 @@ form button:focus {
 /* MOBILE RESPONSIVE DESIGNS */
 @media (max-width: 768px) {
   /* HOME PAGE MOBILE RESPONSIVE STYLES */
+
   /* Hide Nav Header and Create Hamburger menu bar styles */
   .top-header,
   nav {
@@ -576,7 +582,7 @@ form button:focus {
   }
 
   .menu-list ul li a {
-    color: #eeeeee;
+    color: #eee;
     font-size: 25px;
   }
 
@@ -714,6 +720,7 @@ form button:focus {
   }
 
   /* ABOUT PAGE MOBILE RESPONSIVE STYLES */
+
   /* Hero Styles */
   .about-hero {
     height: calc(100vh - 90px);
