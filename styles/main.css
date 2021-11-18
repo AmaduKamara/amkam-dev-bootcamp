@@ -5,7 +5,7 @@
   font-family: 'COCOGOOSE';
   font-style: normal;
   font-weight: 400;
-  src: local('COCOGOOSE'), url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff'), format('woff');
+  src: local('COCOGOOSE'), url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff') format('woff');
 }
 
 /* Global reset */
@@ -436,13 +436,13 @@ footer {
 }
 
 .event-left {
-  background-image: linear-gradient(rgba(226, 34, 34, 0.829),rgba(226, 34, 34, 0.829) ), url('../images/about/trainers.jpg');
+  background-image: linear-gradient(rgba(226, 34, 34, 0.829),rgba(226, 34, 34, 0.829)),url('../images/about/trainers.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .event-right {
-  background-image: linear-gradient(rgba(226, 34, 34, 0.829),rgba(226, 34, 34, 0.829)), url('../images/about/UI-Design.jpg');
+  background-image: linear-gradient(rgba(226, 34, 34, 0.829),rgba(226, 34, 34, 0.829)),url('../images/about/UI-Design.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -758,11 +758,6 @@ form button:focus {
   .logo-description .mobile-description {
     display: block;
     font-size: 18px;
-  }
-
-  .second-para,
-  .third-para {
-    display: none;
   }
 
   /* Events Styles */
