@@ -429,7 +429,7 @@ footer {
 }
 
 .event-left {
-  background-image:
+  background:
     linear-gradient(
       rgba(226, 34, 34, 0.829) rgba(226, 34, 34, 0.829)
     ),
@@ -439,7 +439,7 @@ footer {
 }
 
 .event-right {
-  background-image:
+  background:
     linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
