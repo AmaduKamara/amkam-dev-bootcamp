@@ -47,6 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- The original design of this project is done by <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Cindy Shin in Behance.</a>. Owned by <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons license of the design</a>.
 - Thanks to Microverse code reviewers for your reviews. Your reviews made my code better and enhanced the look of my capstone project.
 - Thanks to my coding partners for collaborating with me on this project, giving suggestions and support.
 - And most importantly, thanks, to Microverse for the opportunity given in making me a Professional remote Software developer. I am looking forward to becoming a great one.
