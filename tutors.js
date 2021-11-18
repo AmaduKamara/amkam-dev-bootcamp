@@ -5,7 +5,7 @@ const tutors = [
     position: 'Developer and Bootcamp Instructor',
     description:
       "Hi! I'm Colt. I'm a developer with a serious love for teaching. I've spent the last few years teaching people to program at 2 different immersive bootcamps where I've helped hundreds of people become web developers and change their lives.",
-    image: './images/tutors/selected/Colt Steele.jpg',
+    image: './images/tutors/selected/Colt.jpg',
   },
   {
     id: '2',
@@ -13,7 +13,7 @@ const tutors = [
     position: 'Professional Web Developer and Instructor',
     description:
       'Starting out at the age of 12 I never stopped learning new programming skills and languages. Early I started creating websites for friends and just for fun as well. Besides web development I also explored Python and other non-web-only languages.',
-    image: './images/tutors/selected/Maximilian Schwarzmüller.jpeg',
+    image: './images/tutors/selected/Maximilian.jpeg',
   },
   {
     id: '3',
@@ -21,7 +21,7 @@ const tutors = [
     position: 'Full Stack Web Developer & Instructor at Traversy Media',
     description:
       'Brad Traversy has been programming for around 12 years and teaching for almost 5 years. He is the owner of Traversy Media which is a successful web development YouTube channel and specializes in Fullstack web development.',
-    image: './images/tutors/selected/Brad Traversy.jpeg',
+    image: './images/tutors/selected/Brad.jpeg',
   },
   {
     id: '4',
@@ -29,7 +29,7 @@ const tutors = [
     position: 'Web Developer, Designer, and Teacher.',
     description:
       "Hi, I'm Jonas! I have been identified as one of Udemy's Top Instructors and all my premium courses have earned the best-selling status for outstanding performance and student satisfaction.",
-    image: './images/tutors/selected/Jonas Schmedmann.jpg',
+    image: './images/tutors/selected/Jonas.jpg',
   },
   {
     id: '5',
@@ -37,7 +37,7 @@ const tutors = [
     position: 'A Full-stack Developer & Teacher',
     description:
       "I launched my first Udemy course in 2014 and had a blast teaching and helping others. Since then, I've launched 3 courses with over 110,000 students and over 18,000 5-star reviews.",
-    image: './images/tutors/selected/Andrew Mead.jpg',
+    image: './images/tutors/selected/Andrew.jpg',
   },
   {
     id: '6',
@@ -45,7 +45,7 @@ const tutors = [
     position: 'Director of Engineering',
     description:
       'I’ve acquired a wide depth of knowledge and expertise in using my technical skills in programming, computer science, software development, and mobile app development to developing solutions to help organizations increase productivity, and accelerate business performance.',
-    image: './images/tutors/selected/Bucky Roberts.jpg',
+    image: './images/tutors/selected/Bucky.jpg',
   },
 ];
 
