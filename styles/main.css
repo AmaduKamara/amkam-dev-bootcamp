@@ -1,10 +1,12 @@
 /* Google font import - Lato */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 @font-face {
-    font-family: 'COCOGOOSE';
-    font-style: normal;
-    font-weight: 400;
-    src: local('COCOGOOSE'), url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff') format('woff');
+  font-family: 'COCOGOOSE';
+  font-style: normal;
+  font-weight: 400;
+  src: local('COCOGOOSE'),
+    url('https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff')
+      format('woff');
 }
 
 /* Global reset */
@@ -253,7 +255,7 @@ nav {
   height: 3px;
 }
 
-.speaker-row{
+.speaker-row {
   width: 100%;
 }
 
@@ -635,7 +637,7 @@ form button:focus {
 
   .program {
     width: 100%;
-    margin: 10px 0; */
+    margin: 10px 0;
   }
 
   /* Featured Tutors */
