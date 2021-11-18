@@ -20,7 +20,7 @@ Thi Capstone project is a project required students to build a project from scra
 
 ## Live Demo
 
-<a href="#">Amkam DevBootcamp</a>
+<a href="https://amadukamara.github.io/amkam-dev-bootcamp/index.html">Amkam DevBootcamp</a>
 
 ## Getting Started
 
