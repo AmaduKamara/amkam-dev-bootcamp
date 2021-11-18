@@ -412,6 +412,10 @@ footer {
   margin-top: 50px;
 }
 
+.contact-email {
+  text-decoration: underline;
+}
+
 /* Past Events */
 .past-events {
   width: 100%;
@@ -750,10 +754,6 @@ form button:focus {
     width: 80%;
     margin: auto;
     margin-top: 20px;
-  }
-
-  .contact-email {
-    text-decoration: underline;
   }
 
   .logo-description {

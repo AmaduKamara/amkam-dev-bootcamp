@@ -23,6 +23,8 @@ It's a solo project for all students as it marks the end of a module. The idea i
 
 <a href="https://amadukamara.github.io/amkam-dev-bootcamp/index.html">Amkam DevBootcamp</a>
 
+## Video about the project and demo work through
+
 ## Getting Started
 
 This is an exercise requiring a student to develop a website as a capstone project individually.
