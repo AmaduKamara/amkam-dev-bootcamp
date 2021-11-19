@@ -145,7 +145,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 0 10px;
 }
 
 .hero-intro {
@@ -487,7 +486,8 @@ footer {
 }
 
 .event-left {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
@@ -498,7 +498,8 @@ footer {
 }
 
 .event-right {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
