@@ -187,6 +187,12 @@ header {
   font-size: 20px;
 }
 
+.enroll-button:focus {
+  color: #ec5242;
+  background-color: #fff;
+  border: 1px solid #ec5242;
+}
+
 /* ************************* Main Programs *************************** */
 .main-programs {
   width: 100%;
@@ -232,15 +238,10 @@ header {
   margin-top: 20px;
 }
 
-.more-programs:hover {
-  transition: 0.6s ease-in-out;
-  transform: scale(1.02);
-}
-
 /* *********************  End of Main Programs  ************************* */
 
-/* ********************* Featured Tutors ********************* */
-/* .featured-tutors {
+/* ********************* Featured Tutors Styles ********************** */
+.featured-tutors {
   width: 100%;
   padding: 100px 0;
   background-color: #fff;
@@ -250,12 +251,54 @@ header {
   font-weight: 600;
 }
 
-.speaker-line {
-  width: 30px;
-  height: 3px;
-} 
+.speaker-row {
+  width: 100%;
+}
 
-/* ****************** End of Main Programs **********************  */
+.featured-left {
+  width: 50%;
+  margin: 20px 30px;
+}
+
+.featured-right {
+  width: 50%;
+  margin: 20px 30px;
+}
+
+.image {
+  width: 50%;
+  position: relative;
+}
+
+.image .image-left {
+  width: 30%;
+  position: absolute;
+}
+
+.image .image-top {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 100%;
+}
+
+.image-top:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.05);
+}
+
+.speaker-info {
+  width: 50%;
+  padding: 5px 0;
+  margin-left: 60px;
+}
+
+.speaker-info h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* ****************** End of Featured Tutors **********************  */
 
 /* *******************  Partners Section ***************** */
 .partners {
@@ -518,9 +561,299 @@ form button:focus {
   background-color: #ec5242;
 }
 
- /* #################### This applies from 768 onwards #################### */
+/* #################### DESKTOP SCREENS - This applies from 768 onwards #################### */
 @media (min-width: 768px) {
+  /* ################# HOME PAGE STYLES ################# */
+  /* *************************** Header styles *************************** */
   body {
-    background: green;
+    font-size: 16px;
+  }
+
+  .top-header,
+  nav {
+    display: block;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .top-header {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #272a32;
+    color: #fff;
+  }
+
+  .header-social-links {
+    color: #fff;
+  }
+
+  .top-header-links {
+    font-size: 14px;
+  }
+
+  nav {
+    height: 66px;
+    line-height: 66px;
+  }
+
+  .nav-links {
+    color: #272a32;
+    font-size: 18px;
+  }
+
+  .nav-links:hover {
+    color: #ec5242;
+  }
+
+  .nav-links.active {
+    color: #ec5242;
+  }
+
+  .nav-links:focus {
+    color: #fff;
+  }
+
+  .promo {
+    width: 150px;
+    height: 40px;
+    border: 3px solid #ec5242;
+    padding: 1px 8px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ec5242;
+  }
+
+  .promo:hover {
+    color: #f16151;
+  }
+
+  /* Hide mobile hamburger and mobile menu */
+  .mobile-nav,
+  .mobile-menu {
+    display: none;
+  }
+
+  /* ********************* End of Header styles ********************* */
+
+  /* ********************* Hero section styles ********************* */
+
+  /* Hero Section Styles */
+  .hero-section {
+    height: calc(100vh - 90px);
+  }
+
+  .hero-intro p {
+    font-size: 24px;
+  }
+
+  .hero-intro h1 {
+    font-size: 70px;
+    line-height: 65px;
+  }
+
+  .hero-description {
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .hero-description p {
+    font-size: 18px;
+  }
+
+  .program-schedule {
+    width: 50%;
+    margin-top: 12px;
+  }
+
+  .program-schedule h4 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .program-schedule p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .enroll-button:hover {
+    border: 2px solid #ec5242;
+    background-color: transparent;
+    color: #ec5242;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+  }
+
+  /* ********************* End of Hero section styles ********************* */
+
+  /* ************************ Main Program Styles ************************ */
+
+  .programs {
+    flex-direction: row;
+    transition: 0.6s ease-in-out;
+  }
+
+  .program {
+    width: 20%;
+    background-color: #8181814d;
+  }
+
+  .program:hover {
+    cursor: pointer;
+  }
+
+  .more-programs {
+    display: inline-block;
+    font-size: 22px;
+  }
+
+  .more-programs:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.02);
+  }
+  /* ******************** End of Main program styles ******************** */
+
+  /* *************************** Featured Speakers Styles *************************** */
+
+  /* *************************** End Featured Speakers Styles *************************** */
+
+  /* ***************************** Partners Section Styles ***************************** */
+
+  .partner-logo-div {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: 10px;
+  }
+
+  .partner-logo-div img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partner-logo-div img:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.4);
+  }
+  /* ************************** End of Partners Styles ************************** */
+
+  /* *********************** Footer Section Styles *********************** */
+  .footer-info h4 {
+    font-size: 25px;
+  }
+
+  .footer-devbootcamp-logo:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.04);
+  }
+
+  .footer-info {
+    padding: 0;
+  }
+
+  .footer-info p {
+    display: block;
+  }
+
+  footer {
+    padding: 70px 20px;
+  }
+
+  .footer-wrapper {
+    align-items: center;
+  }
+
+  .footer-logo-image a img {
+    width: 60%;
+  }
+
+  /* ################# ABOUT PAGE STYLES ################# */
+
+  /* ********************* Hero Section Styles ********************* */
+  .about-hero {
+    background-image: url('../images/about/About\ Hero.svg');
+  }
+
+  .about-intro-text {
+    display: none;
+  }
+
+  .about-hero h1 {
+    font-size: 65px;
+  }
+
+  .about-hero-texts {
+    width: 60%;
+    border: 1px solid #e0dede;
+    padding: 50px;
+  }
+
+  .about-hero-texts p {
+    display: block;
+    font-size: 18px;
+  }
+
+  .contact-text {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+
+  .contact-email {
+    text-decoration: underline;
+  }
+
+  .amkam-bootcamp-logo {
+    width: 100%;
+    padding: 70px 0;
+    border-top: 2px solid #e9e9e9;
+  }
+
+  .desktop-description {
+    display: block;
+  }
+
+  .bootcapm-logo-div {
+    width: 80%;
+    border: 2px solid #e9e9e9;
+  }
+
+  .bootcapm-logo-div img {
+    width: 50%;
+  }
+
+  .logo-description {
+    width: 50%;
+    margin-top: 30px;
+  }
+
+  .logo-description .mobile-description {
+    display: none;
+  }
+
+  /* *************************** End of About Hero *************************** */
+
+  /* *************************** Past Event Styles *************************** */
+
+  /* Past Events */
+  .past-events {
+    padding: 100px 0;
+    border-top: 2px solid #e4e4e4;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: row;
   }
 }

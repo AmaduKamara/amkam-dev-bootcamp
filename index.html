@@ -25,7 +25,7 @@
   <body>
     <!-- Top and Navigation Header -->
     <header>
-      <div class="bg-secondary top-header">
+      <nav class="bg-secondary top-header">
         <div class="container d-flex justify-content-end">
           <div class="d-flex">
             <ul class="d-flex">
@@ -41,7 +41,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </nav>
       <nav class="shadow-md bg-white shadow container-fluid">
         <div class="container d-flex justify-content-between">
           <div class="logo">
@@ -128,7 +128,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section
+    <article
       class="hero-section d-flex justify-content-center align-items-center"
     >
       <div class="container">
@@ -151,10 +151,10 @@
           <a href="contact.html" class="enroll-button">Join us now</a>
         </div>
       </div>
-    </section>
+    </article>
 
     <!-- Main Programs Section -->
-    <section class="main-programs">
+    <article class="main-programs">
       <div class="container">
         <h2 class="text-center text-white">Main Programs</h2>
         <div class="line"></div>
@@ -211,12 +211,41 @@
           >
         </div>
       </div>
-    </section>
+    </article>
 
     <!-- Featured Tutors Section -->
 
+    <article class="featured-tutors">
+      <h2 class="text-center seconday-dark">Featured Tutors</h2>
+      <div class="line"></div>
+      <div class="mt-5 container tutors">
+        <!-- <div class="d-flex featured-left">
+          <div class="image">
+            <img src="./images/Tiles.svg" alt="" class="image-left" />
+            <img
+              src="./images/tutors/Colt.jpg"
+              alt="Colt Steele"
+              class="image-top"
+              id="colt-image"
+            />
+          </div>
+          <div class="speaker-info">
+            <h4 id="speaker-colt">Colt</h4>
+            <i class="primary-color" id="colt-position"
+              >Developer and Bootcamp Instructor</i
+            >
+            <div class="speaker-line secondary-light-bg"></div>
+            <p class="mt-3" id="colt-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              mollitia fuga distinctio
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </article>
+
     <!-- Partners Section -->
-    <section class="partners">
+    <article class="partners">
       <h2 class="text-center secondary-light">Partners</h2>
       <div class="line"></div>
       <div class="container d-flex partners-logos">
@@ -239,7 +268,7 @@
           <img src="./images/partners/airbnb.svg" alt="airbnb logo" />
         </div>
       </div>
-    </section>
+    </article>
 
     <!-- Footer Section -->
     <footer>
@@ -264,7 +293,7 @@
         </div>
       </div>
     </footer>
-    
+
     <!-- JavaScript Functionalities -->
     <script src="app.js"></script>
     <script src="tutors.js"></script>
