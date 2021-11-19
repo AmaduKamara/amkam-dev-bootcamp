@@ -148,13 +148,14 @@ header {
 }
 
 .hero-intro {
-  padding: 60px 20px;
+  padding: 30px 20px;
 }
 
 .hero-intro h1 {
   font-size: 30px;
   color: #ec5242;
   font-family: 'Roboto', sans-serif;
+  line-height: 30px;
 }
 
 .hero-intro p,
@@ -165,7 +166,6 @@ header {
 
 .hero-description {
   width: 100%;
-  margin-top: 35px;
   padding: 10px 20px;
   border: 4px solid #fff;
 }
@@ -658,17 +658,16 @@ form button:focus {
   }
 
   .hero-intro p {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .hero-intro h1 {
-    font-size: 70px;
+    font-size: 75px;
     line-height: 65px;
   }
 
   .hero-description {
     width: 50%;
-    margin-top: 10px;
   }
 
   .hero-description p {
