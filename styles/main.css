@@ -135,6 +135,7 @@ header {
 /* End of Mobile Nav */
 
 /* ######################### HOME PAGE ######################### */
+
 /* *********************** Hero Section Styles ************************ */
 .hero-section {
   width: 100%;
@@ -428,6 +429,7 @@ footer {
   padding: 100px 20px;
   background-color: #fff;
 }
+
 .logo-description {
   width: 90%;
   margin: auto;
@@ -482,7 +484,8 @@ footer {
 }
 
 .event-left {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
@@ -493,7 +496,8 @@ footer {
 }
 
 .event-right {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(226, 34, 34, 0.829),
       rgba(226, 34, 34, 0.829)
     ),
@@ -560,6 +564,7 @@ form button:focus {
 /* #################### DESKTOP SCREENS - This applies from 768 onwards #################### */
 @media (min-width: 768px) {
   /* ################# HOME PAGE STYLES ################# */
+
   /* *************************** Header styles *************************** */
   body {
     font-size: 16px;
@@ -717,6 +722,7 @@ form button:focus {
     transition: 0.6s ease-in-out;
     transform: scale(1.02);
   }
+
   /* ******************** End of Main program styles ******************** */
 
   /* *************************** Featured Speakers Styles *************************** */
@@ -770,7 +776,7 @@ form button:focus {
     font-size: 20px;
   }
 
-  .speaker-info p{
+  .speaker-info p {
     padding-right: 20px;
   }
 
@@ -796,6 +802,7 @@ form button:focus {
     transition: 0.6s ease-in-out;
     transform: scale(1.4);
   }
+
   /* ************************** End of Partners Styles ************************** */
 
   /* *********************** Footer Section Styles *********************** */
