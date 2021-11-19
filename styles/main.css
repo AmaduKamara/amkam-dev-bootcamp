@@ -247,31 +247,27 @@ header {
   background-color: #fff;
 }
 
+.tutors {
+  display: flex;
+  flex-direction: column;
+}
+
 .featured-tutors h2 {
   font-weight: 600;
 }
 
-.speaker-row {
-  width: 100%;
-}
-
 .featured-left {
-  width: 50%;
-  margin: 20px 30px;
-}
-
-.featured-right {
-  width: 50%;
-  margin: 20px 30px;
+  width: 90%;
+  margin: 30px auto;
 }
 
 .image {
-  width: 50%;
+  width: 40%;
   position: relative;
 }
 
 .image .image-left {
-  width: 30%;
+  width: 60%;
   position: absolute;
 }
 
@@ -288,9 +284,9 @@ header {
 }
 
 .speaker-info {
-  width: 50%;
+  width: 60%;
   padding: 5px 0;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 .speaker-info h4 {
@@ -724,6 +720,59 @@ form button:focus {
   /* ******************** End of Main program styles ******************** */
 
   /* *************************** Featured Speakers Styles *************************** */
+
+  .tutors {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .featured-tutors h2 {
+    font-weight: 600;
+  }
+
+  .featured-left {
+    width: 50%;
+  }
+
+  .image {
+    width: 40%;
+    position: relative;
+  }
+
+  .image .image-left {
+    width: 40%;
+    position: absolute;
+  }
+
+  .image .image-top {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    width: 100%;
+  }
+
+  .image-top:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.05);
+  }
+
+  .speaker-info {
+    width: 60%;
+    padding: 5px 0;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+
+  .speaker-info h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .speaker-info p{
+    padding-right: 20px;
+  }
 
   /* *************************** End Featured Speakers Styles *************************** */
 
