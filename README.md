@@ -21,7 +21,7 @@ It's a solo project for all students as it marks the end of a module. The idea i
 
 ## Live Demo
 
-<a href="https://amadukamara.github.io/amkam-dev-bootcamp/index.html">Amkam DevBootcamp</a>
+<a href="https://amkam-dev-bootcamp.netlify.app/">Amkam DevBootcamp</a>
 
 ## Video about the project and demo work through
 
